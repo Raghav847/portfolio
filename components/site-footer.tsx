@@ -38,7 +38,7 @@ export async function SiteFooter() {
             >
               Raghav Khandelwal
             </Link>{" "}
-            · Source code available on{" "}
+            {/* · Source code available on{" "}
             <Link
               href={siteConfig.links.github}
               target="_blank"
@@ -46,7 +46,7 @@ export async function SiteFooter() {
               className="font-medium transition-colors text-primary hover:text-primary/80"
             >
               GitHub
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
