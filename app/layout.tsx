@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: 'Raghav Khandelwal',
-      url: 'https://abhishekg.com.np',
+      url: 'raghavk.dev',
     },
   ],
   creator: 'Raghav Khandelwal',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: siteConfig.name,
     description: siteConfig.description,
-    creator: '@cypherab01',
+    creator: '@raghav847',
   },
   icons: {
     icon: '/favicon.ico',
