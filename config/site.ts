@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'Raghav Khandelwal',
-  url: 'https://abhishekg.com.np', //TODO: change to https://raghavkhandelwal.com.np
+  url: 'https://raghavk.dev', //TODO: change to https://raghavkhandelwal.com.np
   description: 'Portfolio of Raghav Khandelwal',
   keywords: [
     'Raghav Khandelwal',
