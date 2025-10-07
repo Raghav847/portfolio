@@ -18,6 +18,18 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  experimental: {
+    serverActions: {
+      // IMPORTANT: list every origin that will call your server actions in prod/preview
+      allowedOrigins: [
+        "raghavk.dev",
+        "www.raghavk.dev",
+        // your Vercel preview/prod domains (adjust these to match your actual project):
+        "raghav847-portfolio.vercel.app",
+        "localhost:3000",
+      ],
+    },
+  },
   async headers() {
     return [{ source: "/site.webmanifest", headers: manifestHeaders }];
   },
